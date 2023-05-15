@@ -329,7 +329,7 @@ td, th{
 /* PARA CELULAR PAGINA HOME  (( EXEMPLO DE CSS PURO))*/
 
 @media screen and ( max-width: 480px){
-    .caixa_cabecario, .efeito_nome, .principal, .conteudo_beneficios, .mapa_conteudo, .video{
+    .caixa_cabecario, .efeito_nome, .principal, .conteudo_beneficios, .mapa_conteudo, .video, .formulario{
         width: auto;
     }
 
@@ -346,9 +346,10 @@ td, th{
         width: 80%;
     }
 
-    .lista_beneficios{
+    .lista_beneficios, .enviar,form{
         width: 100%;
         text-align: center;
+        display: block;
     }
 
     .img_beneficios{
@@ -359,5 +360,12 @@ td, th{
     .efeito_nome{
         width: 100%;
         font-size: 2em;
+    }
+    .produtos_main li {
+        display: block;
+        margin: 20px 0 20px 40px;
+    }
+    .input_padrao{
+         margin: 20px 0 0 60px;
     }
 }
